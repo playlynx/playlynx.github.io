@@ -39,7 +39,7 @@ body {
 	height: 100%;
 }
 
-.background_video {
+.background_image {
 	position: absolute;
 	
 	width: 100%;
@@ -49,16 +49,6 @@ body {
 	object-position: center bottom;
 	
 	filter: blur(8px);
-}
-
-.background_filter {
-	position: absolute;
-	z-index: 1;
-	
-	width: 100%;
-	height: 100%;
-	
-	background: rgba(0, 9, 19, 0.7) none repeat scroll 0% 0%;
 }
 
 .content_container {
